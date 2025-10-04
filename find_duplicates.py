@@ -134,7 +134,7 @@ def display_summary(all_files, file_groups):
             duplicate_files_to_remove += len(files) - 1
         
         print("\n" + "=" * 95)
-        print("📊 SUMMARY STATISTICS")
+        print("📊 SUMMARY STATISTICS FOR ALL FOLDER")
         print("=" * 95)
         print(f"📄 Total files scanned:              {len(all_files)}")
         print(f"✅ Unique files:                     {len(unique_files)}")
